@@ -1,10 +1,35 @@
  <h1 align="center">Gundam Breaker 4 Gunpla Mixer</h1>
 
-[![Created Using - Python](https://img.shields.io/badge/Created_Using-Python-3776AB?logo=python&logoColor=ffffff)](https://)
+<div id="top"></div>
+
 
 A lightweight build randomizer for Gundam Breaker 4 designed to generate custom Gunpla loadouts using parts and kits available in-game.
 
+<p align="center">
+  <a href="https://">
+    <img src="https://img.shields.io/badge/Created_Using-Python-3776AB?logo=python&logoColor=ffffff" alt="Created Using Python">
+  </a>
+</p>
+
 Gunpla Mixer was created as a small passion project for fans who enjoy experimenting with randomized builds, challenge runs, and unique customization combinations. The application uses a curated database of mobile suit parts to generate randomized configurations across multiple equipment categories while maintaining a simple and fast workflow.
+
+---
+
+# Table of Contents
+
+- [Purpose](#purpose)
+- [Why This Project Was Made](#why-this-project-was-made)
+- [Overview](#overview)
+- [Installation](#installation)
+- [Project Status](#project-status)
+- [Web Application](#web-application)
+- [Versions](#versions)
+  - [GunplaMixer v1 (Classic)](#gunplamixer-v1-classic)
+  - [GunplaMixer v2 & v3](#gunplamixer-v2--v3)
+  - [GunplaMixer v4](#gunplamixer-v4)
+  - [GunplaMixer v4 (Classic)](#gunplamixer-v4-classic)
+
+---
 
 ## Purpose
 
@@ -14,13 +39,17 @@ One of the core appeals of Gundam Breaker is the ability to freely customize mob
 
 The project can be used in several different ways:
 
-* Generating random builds for challenge runs
-* Creating inspiration for future Gunpla designs
-* Encouraging experimentation with unfamiliar parts or kits
-* Adding variety to gameplay sessions and livestreams
-* Creating community challenges or randomized tournaments
+- Generating random builds for challenge runs
+- Creating inspiration for future Gunpla designs
+- Encouraging experimentation with unfamiliar parts or kits
+- Adding variety to gameplay sessions and livestreams
+- Creating community challenges or randomized tournaments
 
 The inclusion of export functionality allows generated builds to be archived, shared, or reused later, making the tool useful both casually and for organized community activities.
+
+[Back to Top](#top)
+
+---
 
 ## Why This Project Was Made
 
@@ -32,14 +61,26 @@ The project was also developed with livestream use in mind. The included batch l
 
 Although the application serves a relatively niche audience, it was built specifically for fans who enjoy customization-heavy gameplay systems and community-driven experimentation.
 
+[Back to Top](#top)
+
+---
 
 ## Overview
 
-The software randomly generates a complete build configuration by selecting parts from the following categories:Head, Body,Left Arm, Right Arm, Chest, Backpack
+The software randomly generates a complete build configuration by selecting parts from the following categories:
+
+- Head
+- Body
+- Left Arm
+- Right Arm
+- Chest
+- Backpack
 
 Generated builds are displayed directly in the application and can be exported as both `.txt` and `.json` files for archival, sharing, or future use.
 
 The project is written entirely in `Python` and includes a Windows `.bat` launcher for simplified execution. This was primarily added to improve accessibility for users who may encounter issues launching Python scripts directly, while also allowing the application to be easily integrated with tools such as Stream Deck profiles for livestream use.
+
+[Back to Top](#top)
 
 ---
 
@@ -48,13 +89,15 @@ The project is written entirely in `Python` and includes a Windows `.bat` launch
 1. Install Python 3
 2. Download the repository
 3. Place the `.py` and `.bat` files in the same folder
-4. Double click the `GunplaMixer.bat` file and wait.
+4. Double-click the `GunplaMixer.bat` file and wait
 
-[!NOTE]
-> There are many helpful tutorials on YouTube that walk through the [process](https://www.youtube.com/watch?v=tBAMZrKtUQA) [of](https://www.youtube.com/watch?v=8mO6QXOcpqU) [installing](https://www.youtube.com/watch?v=Qg05y10APwA) [Python](https://www.youtube.com/watch?v=GLPxEM-J-M4).
+> [!NOTE]
+> There are many helpful tutorials on YouTube that walk through the [process](https://www.youtube.com/watch?v=tBAMZrKtUQA), [of](https://www.youtube.com/watch?v=8mO6QXOcpqU), [installing](https://www.youtube.com/watch?v=Qg05y10APwA), [Python](https://www.youtube.com/watch?v=GLPxEM-J-M4).
 
-[!NOTE]
+> [!NOTE]
 > Python can be downloaded from [here](https://www.python.org/downloads/)
+
+[Back to Top](#top)
 
 ---
 
@@ -66,6 +109,8 @@ A future HTML/web-based version of the project is currently planned.
 
 As this is a niche community tool and personal side project, development updates may occur irregularly.
 
+[Back to Top](#top)
+
 ---
 
 ## Web Application
@@ -74,39 +119,54 @@ The browser-based version of Gunpla Mixer is available here. It’s essentially 
 
 [GunplaMixer Web App](https://gunplamixer.vercel.app/?utm_source=chatgpt.com)
 
+[Back to Top](#top)
+
 ---
 
 # Versions
 
-### [GunplaMixer v1 (Classic)](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v1.v2.v3)
+---
+
+## GunplaMixer v1 (Classic)
+
+[View Release](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v1.v2.v3)
 
 The original release of Gunpla Mixer focused entirely on core functionality. The interface was intentionally minimal, prioritizing fast generation and ease of use without additional visual effects or interface styling.
 
+[Back to Top](#top)
+
 ---
 
-### [GunplaMixer v2 &v3](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v1.v2.v3)
+## GunplaMixer v2 & v3
 
+[View Release](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v1.v2.v3)
 
 Versions 2 and 3 retained the same core functionality introduced in v1 while redesigning the presentation layer to resemble retro computer terminals and cinematic command-line systems.
 
 These releases focused primarily on visual identity and atmosphere rather than introducing new features.
 
+[Back to Top](#top)
+
 ---
 
-### [GunplaMixer v1 (Classic)](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v4)
+## GunplaMixer v4
 
+[View Release](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v4)
 
 Version 4 represents the most refined release of the project to date.
 
 This release introduces export support for both `.txt` and `.json` generation files, along with structural improvements and a redesigned user experience. The standard edition continues the terminal-inspired visual presentation introduced in previous releases while refining the overall interface and workflow.
 
+[Back to Top](#top)
+
 ---
 
-### [GunplaMixer v1 (Classic)](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v4)
+## GunplaMixer v4 (Classic)
 
+[View Release](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v4)
 
 GunplaMixer v4 (Classic) includes all functionality and export improvements introduced in the standard v4 release while removing the additional visual styling and interface effects.
 
 This version is intended for users who prefer a cleaner and more minimal presentation.
 
-
+[Back to Top](#top)
