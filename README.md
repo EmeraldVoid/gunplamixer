@@ -1,10 +1,8 @@
-=========================================================
-
-<br>GunplaMixer Version V4
-<br>www.github.com/emeraldvoid/<br>gunplamixer
+<h1>GunplaMixer Version V4</h1>
+www.github.com/emeraldvoid/<br>gunplamixer
 <br>YouTube: @emerald_void
 
-=========================================================
+<br>
 
 ## Description
 
