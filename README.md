@@ -7,7 +7,7 @@ A lightweight build randomizer for Gundam Breaker 4 designed to generate custom 
 
 <p align="center">
   <a href="https://">
-    <img src="https://img.shields.io/badge/Created_Using-Python-3776AB?logo=python&logoColor=ffffff" alt="Created Using Python">
+    <img src="https://img.shields.io/badge/Created_Using-Python-3776AB?logo=python&logoColor=ffcc00" alt="Created Using Python">
   </a>
 </p>
 
@@ -28,6 +28,7 @@ Gunpla Mixer was created as a small passion project for fans who enjoy experimen
   - [GunplaMixer v2 & v3](#gunplamixer-v2--v3)
   - [GunplaMixer v4](#gunplamixer-v4)
   - [GunplaMixer v4 (Classic)](#gunplamixer-v4-classic)
+- [Examples](#examples)  
 
 ---
 
@@ -168,5 +169,18 @@ This release introduces export support for both `.txt` and `.json` generation fi
 GunplaMixer v4 (Classic) includes all functionality and export improvements introduced in the standard v4 release while removing the additional visual styling and interface effects.
 
 This version is intended for users who prefer a cleaner and more minimal presentation.
+
+[Back to Top](#top)
+
+---
+
+## Examples
+
+Here are a few short YouTube videos of Gunpla builds that were created with **GunplaMixer v1 (Classic)** before the tool was publicly released:
+
+* [Example 1](https://youtube.com/shorts/9S0dgocs8TE)
+* [Example 2](https://youtube.com/shorts/LgvRm3DpFXA)
+* [Example 3](https://youtube.com/shorts/E9EOT5z0dP0)
+
 
 [Back to Top](#top)
