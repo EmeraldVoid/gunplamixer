@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #00ff66;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* CRT SCREEN GLOW + CURVATURE FEEL */
+.container {
+  margin-top: 60px;
+  text-shadow: 0 0 5px #00ff66, 0 0 10px #00ff66;
+  animation: flicker 0.15s infinite alternate;
+}
+
+/* subtle flicker like old monitor */
+@keyframes flicker {
+  0% { opacity: 0.97; }
+  100% { opacity: 1; }
+}
+
+h1 {
+  text-shadow: 0 0 10px #00ff66, 0 0 20px #00ff66;
+  letter-spacing: 2px;
+}
+
+/* TERMINAL BUTTONS */
+button {
+  background: black;
+  border: 1px solid #00ff66;
+  color: #00ff66;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+  text-shadow: 0 0 5px #00ff66;
+  box-shadow: 0 0 5px #00ff66 inset;
+}
+
+button:hover {
+  background: #003300;
+}
+
+/* LOADING BAR */
+.bar {
+  width: 300px;
+  height: 20px;
+  border: 1px solid #00ff66;
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 0 0 10px #00ff66;
+}
+
+#barFill {
+  height: 100%;
+  width: 0%;
+  background: #00ff66;
+  transition: width 1.5s;
+  box-shadow: 0 0 15px #00ff66;
+}
+
+/* OUTPUT TERMINAL BOX */
+pre {
+  text-align: left;
+  display: inline-block;
+  border: 1px solid #00ff66;
+  padding: 18px;
+  font-size: 18px; /* ⬅️ BIGGER RESULT TEXT */
+  line-height: 1.5;
+  box-shadow:
+    0 0 10px #00ff66,
+    inset 0 0 10px #00ff66;
+  background: rgba(0, 255, 102, 0.03);
+}
+
+/* SCANLINES OVERLAY */
+.scanlines {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 255, 102, 0.06),
+    rgba(0, 255, 102, 0.06) 1px,
+    transparent 2px,
+    transparent 4px
+  );
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* CRT VIGNETTE (dark edges) */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: radial-gradient(
+    circle,
+    transparent 40%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  z-index: 3;
+}
+
+/* OPTIONAL: slight screen wobble */
+@keyframes wobble {
+  0% { transform: translate(0px, 0px); }
+  50% { transform: translate(0.5px, -0.5px); }
+  100% { transform: translate(-0.5px, 0.5px); }
+}
+
+.container {
+  animation: flicker 0.15s infinite alternate, wobble 3s infinite ease-in-out;
+}
+
+.github {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 999;
+  opacity: 0.9;
+  transition: 0.2s;
+  filter: drop-shadow(0 0 6px #00ff66);
+}
+
+.github:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
