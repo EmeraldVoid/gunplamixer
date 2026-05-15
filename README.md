@@ -1,4 +1,6 @@
-# Gundam Breaker 4 Gunpla Mixer
+ <h1 align="center">Gundam Breaker 4 Gunpla Mixer</h1>
+
+[![Created Using - Python](https://img.shields.io/badge/Created_Using-Python-3776AB?logo=python&logoColor=ffffff)](https://)
 
 A lightweight build randomizer for Gundam Breaker 4 designed to generate custom Gunpla loadouts using parts and kits available in-game.
 
@@ -33,18 +35,11 @@ Although the application serves a relatively niche audience, it was built specif
 
 ## Overview
 
-The software randomly generates a complete build configuration by selecting parts from the following categories:
-
-* Head
-* Body
-* Left Arm
-* Right Arm
-* Chest
-* Backpack
+The software randomly generates a complete build configuration by selecting parts from the following categories:Head, Body,Left Arm, Right Arm, Chest, Backpack
 
 Generated builds are displayed directly in the application and can be exported as both `.txt` and `.json` files for archival, sharing, or future use.
 
-The project is written entirely in Python and includes a Windows `.bat` launcher for simplified execution. This was primarily added to improve accessibility for users who may encounter issues launching Python scripts directly, while also allowing the application to be easily integrated with tools such as Stream Deck profiles for livestream use.
+The project is written entirely in `Python` and includes a Windows `.bat` launcher for simplified execution. This was primarily added to improve accessibility for users who may encounter issues launching Python scripts directly, while also allowing the application to be easily integrated with tools such as Stream Deck profiles for livestream use.
 
 ---
 
@@ -53,13 +48,13 @@ The project is written entirely in Python and includes a Windows `.bat` launcher
 1. Install Python 3
 2. Download the repository
 3. Place the `.py` and `.bat` files in the same folder
-4. Run:
+4. Double click the `GunplaMixer.bat` file and wait.
 
-```bash
-GunplaMixer.bat
-```
+[!NOTE]
+> There are many helpful tutorials on YouTube that walk through the [process](https://www.youtube.com/watch?v=tBAMZrKtUQA) [of](https://www.youtube.com/watch?v=8mO6QXOcpqU) [installing](https://www.youtube.com/watch?v=Qg05y10APwA) [Python](https://www.youtube.com/watch?v=GLPxEM-J-M4).
 
-**OR** in Windows, double click the `GunplaMixer.bat` file and wait.
+[!NOTE]
+> Python can be downloaded from [here](https://www.python.org/downloads/)
 
 ---
 
@@ -75,7 +70,7 @@ As this is a niche community tool and personal side project, development updates
 
 ## Web Application
 
-The browser-based version of Gunpla Mixer is available here:
+The browser-based version of Gunpla Mixer is available here. It’s essentially the Classic release of the software, adapted with a web-friendly interface and styling.
 
 [GunplaMixer Web App](https://gunplamixer.vercel.app/?utm_source=chatgpt.com)
 
@@ -83,13 +78,14 @@ The browser-based version of Gunpla Mixer is available here:
 
 # Versions
 
-## GunplaMixer v1 (Classic)
+### [GunplaMixer v1 (Classic)](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v1.v2.v3)
 
 The original release of Gunpla Mixer focused entirely on core functionality. The interface was intentionally minimal, prioritizing fast generation and ease of use without additional visual effects or interface styling.
 
 ---
 
-## GunplaMixer v2 & v3
+### [GunplaMixer v2 &v3](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v1.v2.v3)
+
 
 Versions 2 and 3 retained the same core functionality introduced in v1 while redesigning the presentation layer to resemble retro computer terminals and cinematic command-line systems.
 
@@ -97,7 +93,8 @@ These releases focused primarily on visual identity and atmosphere rather than i
 
 ---
 
-## GunplaMixer v4
+### [GunplaMixer v1 (Classic)](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v4)
+
 
 Version 4 represents the most refined release of the project to date.
 
@@ -105,7 +102,8 @@ This release introduces export support for both `.txt` and `.json` generation fi
 
 ---
 
-## GunplaMixer v4 (Classic)
+### [GunplaMixer v1 (Classic)](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v4)
+
 
 GunplaMixer v4 (Classic) includes all functionality and export improvements introduced in the standard v4 release while removing the additional visual styling and interface effects.
 
