@@ -169,6 +169,8 @@ Here are a few short YouTube videos of Gunpla builds created with **GunplaMixer 
 
 ### User Bar 1
 
+**Preview:**
+<br>
 [![GunplaMixer User Bar 1](https://i.imgur.com/FKk0C6O.png)](https://github.com/EmeraldVoid/gunplamixer/releases)
 
 **Image Link:** https://i.imgur.com/FKk0C6O.png
