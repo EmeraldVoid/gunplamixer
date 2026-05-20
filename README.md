@@ -145,6 +145,7 @@ The web version is based primarily on the Classic release while adapting the int
 | GunplaMixer v3 | Overdrive | Expanded on the cinematic terminal-inspired presentation with additional visual refinements and atmospheric styling. | [View Release](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v1.v2.v3) |
 | GunplaMixer v4 | Nova | Added `.txt` and `.json` export support alongside workflow improvements and a refined futuristic interface. | [View Release](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v4) |
 | GunplaMixer v4 | Classic | Retains all v4 functionality while removing additional interface styling and visual effects for a cleaner presentation. | [View Release](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v4) |
+| GunplaMixer v5 | Eclipse | Built for livestream interaction with Streamerbot and OBS integration, Eclipse streamlines randomized build generation for fast viewer-triggered execution while continuing the cinematic terminal-style presentation from previous releases. | [View Release](https://github.com/EmeraldVoid/gunplamixer/releases/tag/v5) |
 
 [Back to Top](#top)
 
